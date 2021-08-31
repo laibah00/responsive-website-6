@@ -13,66 +13,52 @@
          }
          .con-box{
             background:linear-gradient(45deg, rgba(191, 82, 235, 0.52), rgba(21, 79, 238, 0.73)),         }
-            .box{
-                position: relative;
-                margin: auto;
-                width:50%;
-                left:-5%;
-                } 
-             .box1{
-                text-align: center;
-                width: 150px;
-                height:40px;
-                border:2px solid white;
-                background: white;
-             }
-             .L{
-                color: yellow;
-                text-align: center;
-                font-size: 12px;
-                border: 1px solid rgb(56, 12, 56);
-                width: 25px;
-                margin-top: 8px;
-                margin-left: 60px;
-                border-radius: 4px;
-                background: hsl(270, 100%, 60%);
-             }
-             .word{
-                width: 152px;
-                text-align: center;
-                padding-top:3px;
-                color:hsl(270, 100%, 60%);
-                background: white;
-                border:1px solid white;
-                border-radius: 0 0 10px 10px;
-                font-size: 10px;
-                padding-bottom: 2px;
-                box-shadow:1px 2px #888888;
-             
-             }
-             .word span{
-                font-weight:900;
-             }
+        }
+        .box{
+            margin-left:40%;
+           text-align: center;
+           width: 100px;
+           height:70px;
+           border:2px solid white;
+           border-radius: 0 0 15px 15px;
+           background: white;
+           padding: 0 40px;
+           color: hsl(270, 100%, 60%);
+           box-shadow:0px 1px #888888;
+        
+        }
+        .box1{
+           color: yellow;
+           text-align: center;
+           font-size: 12px;
+           border: 1px solid rgb(56, 12, 56);
+           width: 25px;
+           margin-top: 8px;
+           margin-left: 33px;
+           border-radius: 4px;
+           background: hsl(270, 100%, 60%);
+           margin-bottom: 10px;
+        }
         nav{
-            color: white;
-            padding-top: 20px;
-            padding-left: 100px;
+           color: #888888;
+           padding-top: 20px;
+           padding-left: 100px;
         }
         nav a{
-            text-decoration: none;
-            color: white;
+           text-decoration: none;
+           color: #888888;
         }
         nav a.active{
             font-weight: bold;
         }
         nav a:hover{
-           color: yellow;
-           border-bottom: 2px solid yellow;
+          color: yellow;
+          border-bottom: 2px solid yellow;
         }
         nav ul li{
-            display: inline;
-            font-size: 10px;
-            padding: 15px;
+           display: inline;
+           font-size: 10px;
+           padding: 15px;
         }
         .box2{
             padding-top: 120px;
@@ -87,11 +73,7 @@
         .icons{
             display: inline-flex;
             padding-top: 100px;
-        }
-        .icons img{
-            width: 50px;
-            height: 50px;
-            margin-bottom: 9px;
+            margin-right: 80px;
         }
         .flex{
             margin:42px;

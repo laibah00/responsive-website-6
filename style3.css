@@ -63,7 +63,7 @@ nav{
  nav ul li{
     display: inline;
     font-size: 10px;
-    padding: 15px;
+    padding:15px;
  }
  .inpt{
  float: right;
@@ -76,14 +76,16 @@ nav{
  }
 .layout{
   display: inline-flex;
-  margin:8%;
+  margin-left: 20%;
+  margin-top: 5%;
   width: 350px;
-  height: 400px;
+  height: 360px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px #dad6d6;
 }
 .layout-1{
   padding: 20px;
+  margin-right: 30px;
 }
 .grid{
 display: inline-flex;
@@ -180,14 +182,14 @@ display: inline-flex;
   margin-left: 30px;
 }
 .grid-layout{
-  margin-top: 100px;
+  margin-top: 80px;
    display: inline-flex;}
 .grid-1{
        font-size: 6px;
        text-align: center;
        box-shadow: 0px 2px #dad6d6;
        border-radius: 10px;
-       margin-right: 50px;
+       margin-right: 30px;
    }
 .grid-1 .textt{
        width: 65px;
@@ -203,7 +205,7 @@ display: inline-flex;
        text-align: center;
        box-shadow: 0px 2px #dad6d6;
        border-radius: 10px;
-       margin-right: 50px;
+       margin-right: 30px;
    }
 .grid-2 .textt{
        width: 65px;
@@ -232,30 +234,35 @@ display: inline-flex;
 @media only screen and (max-width: 768px)
 {
 .box{
-  margin: auto;
   width: 15%;
-  justify-content: center;
-  align-content: center;
 }
 nav{
-   position:absolute;
-left: 150px;
-justify-content: center;
+   position: relative;
+   justify-content: center;
+}
+nav ul li a{
+    width: 80%;
+    display: block;
+    justify-content: center;
+    text-align:center;
 }
 .inpt{
-  position: absolute;
+  position: relative;
   float: none;
-  top:40px;
-  left: 40px;
   display: block;
+  text-align: center;
+  left: 90px;
   justify-content: center;
   width: 30%;
 } .layout{
   display: block;
+  position: relative;
+  left: 50px;
+  margin-left: 50px;
 }
 .layout-1{
   display: block;
-  width: 50%;
+  padding-left:  17px;
 }
 .layout-2{
   margin-top:30%;
@@ -264,6 +271,6 @@ justify-content: center;
   width: 100%;
 }
 .grid-1 , .grid-2 , .grid-3{
-margin-right: 90px;
+margin-right: 30px;
 }
 }
