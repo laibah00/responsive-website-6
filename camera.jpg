@@ -1,0 +1,258 @@
+ *{
+             padding: 0;
+             margin: 0;
+             font-family: Arial, Helvetica, sans-serif;
+         }
+        .box{
+            margin: auto;
+            width: 10%;
+            } 
+        .box1{
+            text-align: center;
+            width: 100px;
+            height:40px;
+            border:2px solid white;
+            background: white;
+        }
+        .L{
+            color: yellow;
+            text-align: center;
+            font-size: 12px;
+            border: 1px solid rgb(56, 12, 56);
+            width: 25px;
+            margin-top: 8px;
+            margin-left: 33px;
+            border-radius: 4px;
+            background: hsl(270, 100%, 60%);
+        }
+        .word{
+            width: 102px;
+            text-align: center;
+            padding-top:3px;
+            color:hsl(270, 100%, 60%);
+            background: white;
+            border:1px solid white;
+            border-radius: 0 0 10px 10px;
+            font-size: 10px;
+            padding-bottom: 2px;
+            box-shadow:1px 2px #888888;
+
+        }
+        .word span{
+            font-weight:900;
+        }
+        header{
+            padding: 40px;
+        }
+        nav{
+            color: #888888;
+            width:100%;
+        }
+        nav ul li{
+            display: inline;
+            font-size: 10px;
+            padding: 25px;
+        }
+        .inpt{
+            float: right;
+            margin-right: auto;
+            width: 15%;
+            border: 1px solid #b6aeae;
+            color: #888888;
+            padding: 4px;
+            border-radius: 4px;
+            background-color: #dddddd;
+        }
+       .layout{
+           display: inline-flex;
+           margin:8%;
+           width: 350px;
+           height: 400px;
+           border-radius: 10px;
+           box-shadow: 2px 2px 2px 2px #dad6d6;
+       }
+       .layout-1{
+           padding: 20px;
+       }
+       .grid{
+        display: inline-flex;
+       }
+       .layout-1 .img img{
+           width: 90px;
+           height: 90px;
+       }
+       .txt{
+           padding: 10px;
+       }
+       .txt h3{
+           font-size: 15px;
+       }
+       .txt p{
+           font-size: 10px;
+       }
+       .but-2{
+           margin-top: 20px;
+           display: inline-flex;
+           width: 90px;
+           height: 15px;
+           text-align: center;
+           padding: 5px;
+           border-radius: 3px;
+           background: lightgray;
+       }
+       .but-1{
+           margin-top: 20px;
+           display: inline-flex;
+           width: 90px;
+           height: 15px;
+           text-align: center;
+           padding: 5px;
+           border-radius: 3px;
+           background: lightgray;
+           margin-right: 10px;
+       }
+       .text{
+           padding-left: 15px;
+           padding-top: 5px;
+       }
+       .button{
+           display: inline-flex;
+       }
+       .line{
+           display: inline-flex;
+       }
+       .txt p{
+           font-size: 10px;
+       }
+       .line #active .but{
+           padding-top: 5px;
+           padding-left: 150px;
+       }
+       .line #active p{
+           padding-top: 10px;
+           margin-right: 10px;
+           font-size: 10px;
+       }
+       .line{
+           width: 300px;
+           height: 30px;
+           border-bottom: 1px solid rgb(194, 193, 193);
+       }
+       .layout-2{
+           margin-left: 20px;
+           border-radius: 0 0 10px 10px;
+           height:250px;
+           box-shadow: 2px 2px 2px 2px #dad6d6;
+
+       }
+       .picture img{
+           width: 350px;
+           height: 80px;
+           border-radius: 10px 10px 0 0;
+       }
+       .text1{
+           padding: 10px;
+       }
+       .gridd{
+           display: inline-flex;
+       }
+       .text1 h5{
+           font-size: 12px;
+       }
+       .text1 p{ font-size: 8px;}
+       .gridd p{
+           font-size: 8px;
+           padding-left: 10px;
+       }
+       .gridd .but-1{
+           padding-right: 5px;
+           margin-left: 30px;
+       }
+       .grid-layout{
+           margin-top: 100px;
+            display: inline-flex;}
+        .grid-1{
+                font-size: 6px;
+                text-align: center;
+                box-shadow: 0px 2px #dad6d6;
+                border-radius: 10px;
+                margin-right: 50px;
+            }
+        .grid-1 .textt{
+                width: 65px;
+                height: 30px;
+            }
+       .grid-1 img{
+           height: 50px;
+           width: 65px;
+           border-radius:10px 10px 0 0;
+       }
+       .grid-2{
+                font-size: 6px;
+                text-align: center;
+                box-shadow: 0px 2px #dad6d6;
+                border-radius: 10px;
+                margin-right: 50px;
+            }
+        .grid-2 .textt{
+                width: 65px;
+                height: 30px;
+            }
+       .grid-2 img{
+           height: 50px;
+           width: 65px;
+           border-radius:10px 10px 0 0;
+       }
+       .grid-3{
+                font-size: 6px;
+                text-align: center;
+                box-shadow: 0px 2px #dad6d6;
+                border-radius: 10px;
+            }
+        .grid-3 .textt{
+                width: 65px;
+                height: 30px;
+            }
+       .grid-3 img{
+           height: 50px;
+           width: 65px;
+           border-radius:10px 10px 0 0;
+       }
+        @media only screen and (max-width: 768px)
+       {
+       .box{
+           margin: auto;
+           width: 15%;
+           justify-content: center;
+           align-content: center;
+       }
+        nav{
+            position:absolute;
+         left: 150px;
+        justify-content: center;
+       }
+       .inpt{
+           position: absolute;
+           float: none;
+           top:40px;
+           left: 40px;
+           display: block;
+           justify-content: center;
+           width: 30%;
+       } .layout{
+           display: block;
+       }
+       .layout-1{
+           display: block;
+           width: 50%;
+       }
+       .layout-2{
+           margin-top:30%;
+           margin-left: 0;
+           display: block;
+           width: 100%;
+       }
+       .grid-1 , .grid-2 , .grid-3{
+        margin-right: 90px;
+       }
+       }
